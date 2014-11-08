@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f8de97">
+	<GridView
+    android:id="@+id/gridview"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="5"
+    android:columnWidth="80dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="10dp"
+    android:horizontalSpacing="0dp"
+    android:gravity="right"
+    android:layout_gravity="right"
+    android:background="#000000"
+	/>
+	<LinearLayout 
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:layout_gravity="center_horizontal"
+    android:background="#f8de97"
+    >
+	<ImageView android:id="@+id/app1icon"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:paddingRight="10dp"
+	    android:layout_gravity="center"
+	    android:background="#f8de97"
+	    android:src="@drawable/app1icon"
+	   />
+
+	<ImageButton
+	    android:id="@+id/imageButton1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:src="@drawable/swap"
+	    android:layout_gravity="center"
+	    android:background="#00000000"
+	    android:onClick="swap" />
+
+	<ImageView android:id="@+id/app2icon"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:paddingLeft="10dp"
+	    android:layout_gravity="center"
+	    android:background="#f8de97"
+	    android:src="@drawable/app2icon"
+	    />
+	</LinearLayout>
+	<Button android:id="@+id/submitbtn"
+	    android:text="@string/change"
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:layout_gravity="center_horizontal"
+	    android:onClick="send"
+	    
+	    />
+</LinearLayout>

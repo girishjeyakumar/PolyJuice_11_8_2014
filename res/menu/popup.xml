@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:androclass="http://schemas.android.com/apk/res/android" >  
+  
+    <item 
+        android:id="@+id/hide"
+        android:title="@string/popup_hide"/>
+    
+    <item  
+        android:id="@+id/switch_app"  
+        android:title="@string/popup_switch"/>
+    
+    <item  
+        android:id="@+id/change_targets"  
+        android:title="@string/popup_change"/>  
+    
+    <item 
+        android:id="@+id/preferences"
+        android:title="@string/popup_preferences"/>
+    
+    <item  
+        android:id="@+id/close"  
+        android:title="@string/popup_close"/>  
+          
+</menu>
